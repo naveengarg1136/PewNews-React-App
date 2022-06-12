@@ -69,7 +69,10 @@ function News(props) {
 
     return (
         <div className="container my-3" >
+            <div>
             <h2 className='text-center' style={{ margin: '20px', marginTop:'90px' }}>PewNews - Top {captital(props.category)} Headlines</h2>
+            </div>
+            
 
             {loading && <Spinner/>}
 
